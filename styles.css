@@ -1,0 +1,99 @@
+:root {
+  --navy-950: #07141f;
+  --navy-900: #0d2740;
+  --navy-800: #103a5e;
+  --navy-700: #175b87;
+  --blue-500: #1fa7e1;
+  --blue-300: #7dd7ff;
+  --orange-500: #ff7a00;
+  --white: #f7fbfd;
+  --ice: #e9f7ff;
+  --line: rgba(16, 58, 94, 0.1);
+  --text: #163247;
+  --muted: #4f6678;
+  --shadow: 0 26px 70px rgba(6, 26, 41, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(31, 167, 225, 0.12), transparent 22%),
+    radial-gradient(circle at 90% 14%, rgba(255, 122, 0, 0.1), transparent 18%),
+    linear-gradient(180deg, #f0f9ff 0%, #f7fbfd 32%, #eef6fb 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-shell {
+  width: min(1260px, calc(100% - 32px));
+  margin: 20px auto;
+  padding: 18px 0 24px;
+}
+
+.site-header {
+  position: sticky;
+  top: 16px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 24px;
+  backdrop-filter: blur(18px);
+  background: rgba(247, 251, 253, 0.84);
+  box-shadow: 0 12px 40px rgba(13, 39, 64, 0.08);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.brand-logo {
+  width: 118px;
+  height: auto;
+  display: block;
+  flex: 0 0 auto;
+}
+
+.brand-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.brand-copy strong,
+.site-nav a,
+.nav-cta,
+.hero h1,
+.section-heading h2,
+.service-card h3,
+.work-card h3,
+.process-step h3,
+.promise-panel h2,
+.contact-copy h2,
+.contact-card strong {
+  font-family: "Bahnschrift", "Arial Narrow", sans-serif;
+}
+
+.brand-copy strong {
+  font-size: 1.15rem;
+  letter-spacing: 0.4px;
+}
