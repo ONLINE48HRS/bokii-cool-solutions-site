@@ -1,0 +1,22 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="markStripe" x1="190" y1="120" x2="420" y2="474" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#40C6F2"/>
+      <stop offset="1" stop-color="#0FA2E1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="640" rx="156" fill="#F7FBFD"/>
+  <rect x="72" y="72" width="496" height="496" rx="124" fill="#103A5E"/>
+
+  <rect x="194" y="154" width="78" height="274" rx="39" fill="#F7FBFD"/>
+  <rect x="256" y="154" width="194" height="122" rx="61" fill="#F7FBFD"/>
+  <rect x="256" y="306" width="194" height="122" rx="61" fill="#F7FBFD"/>
+
+  <circle cx="374" cy="214" r="37" fill="#103A5E"/>
+  <circle cx="374" cy="366" r="37" fill="#103A5E"/>
+
+  <path d="M406 126H474L323 492H255L406 126Z" fill="url(#markStripe)"/>
+
+  <path d="M416 92L438 128L479 136L450 165L456 207L416 186L377 207L383 165L353 136L395 128L416 92Z" fill="#FF7A00"/>
+</svg>

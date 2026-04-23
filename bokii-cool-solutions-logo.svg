@@ -1,0 +1,40 @@
+<svg width="1500" height="460" viewBox="0 0 1500 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coolStripe" x1="122" y1="80" x2="322" y2="322" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#40C6F2"/>
+      <stop offset="1" stop-color="#0FA2E1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1500" height="460" rx="24" fill="#F7FBFD"/>
+
+  <g transform="translate(48 54)">
+    <rect x="0" y="0" width="352" height="352" rx="88" fill="#103A5E"/>
+
+    <rect x="88" y="78" width="60" height="196" rx="30" fill="#F7FBFD"/>
+    <rect x="138" y="78" width="138" height="88" rx="44" fill="#F7FBFD"/>
+    <rect x="138" y="186" width="138" height="88" rx="44" fill="#F7FBFD"/>
+
+    <circle cx="224" cy="122" r="26" fill="#103A5E"/>
+    <circle cx="224" cy="230" r="26" fill="#103A5E"/>
+
+    <path d="M250 66L304 66L196 286L142 286L250 66Z" fill="url(#coolStripe)"/>
+
+    <path d="M255 32L271 58L301 64L280 85L284 116L255 101L227 116L231 85L209 64L239 58L255 32Z" fill="#FF7A00"/>
+  </g>
+
+  <g fill="#103A5E" font-family="Segoe UI, Arial, sans-serif">
+    <text x="458" y="176" font-size="110" font-weight="800" letter-spacing="1.5">BOKII</text>
+    <text x="458" y="272" font-size="82" font-weight="800" letter-spacing="1.2">COOL SOLUTIONS</text>
+  </g>
+
+  <rect x="462" y="304" width="864" height="8" rx="4" fill="#1FA7E1"/>
+
+  <text x="458" y="360" fill="#1F252B" font-size="33" font-weight="700" font-family="Segoe UI, Arial, sans-serif" letter-spacing="1.1">
+    MOBILE REFRIGERATION, FRIDGE &amp; AIRCON REPAIRS
+  </text>
+
+  <text x="458" y="404" fill="#FF7A00" font-size="25" font-weight="700" font-family="Segoe UI, Arial, sans-serif" letter-spacing="1.4">
+    RELIABLE ON-SITE COOLING SERVICES
+  </text>
+</svg>
